@@ -1,0 +1,41 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    border: 1px solid rgb(230, 218, 218);
+    display: inline-block;
+    padding: 20px;
+    height: 15rem;
+    text-align: center;
+    width: 17rem;
+    margin: 20px;
+    margin-left: 5.5rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgb(163 161 161);
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.container:hover{
+    transform: scale(1.05);
+}
+
+.item{
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.user-img{
+    border-radius: 90px;
+    height: 10rem;
+    width: 10rem;  
+}
+
+div p{
+    color: white;
+}
+
+.loader{
+    text-align: center;
+    margin-top: 9rem;
+}
